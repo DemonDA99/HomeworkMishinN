@@ -6,6 +6,7 @@ namespace HomeworkMishinN
     {
         static void Main(string[] args)
         {
+            //ф
             string name;
             string surname;
             int age;
