@@ -6,7 +6,16 @@ namespace WorkSevenL2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Введите первое число: ");
+            int numberOne = int.Parse(Console.ReadLine());
+            Console.Write("Введите второе число");
+            int numberTwo = int.Parse(Console.ReadLine());
+
+            for (int A = numberOne; A < numberTwo; A++)
+            {
+                Console.WriteLine(A);
+            }
+            Console.WriteLine((numberOne + numberTwo) *(numberTwo - numberOne + 1) / 2);
         }
     }
 }
